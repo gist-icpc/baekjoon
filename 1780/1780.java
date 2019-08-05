@@ -48,7 +48,7 @@ public class Main {
 
         size = size/3;
 
-        // 이부분에서 실수 엄청했음... 어캐잡지
+        // 이부분에서 실수 엄청했음...
         for (int i=0; i<3; i++) {
             for (int j=0; j<3; j++) {
                 divide(startRow+i*size, startCol+j*size, size);

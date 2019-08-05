@@ -1,6 +1,7 @@
 import java.io.FileInputStream;
 import java.util.Scanner;
 
+//  Reference : https://qlyh8.tistory.com/118
 class Main {
 
     private static int N;

@@ -5,7 +5,7 @@ Algorithm problem solving project managed by GIST(Gwangju Institute of Sicence a
 
 ## Wiki
 
-To see the solution, check 'wiki'.
+To see the solutions, check 'wiki'.
 
 
 ## Directory structure
