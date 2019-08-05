@@ -3,6 +3,11 @@
 Algorithm problem solving project managed by GIST(Gwangju Institute of Sicence and Technology)
 
 
+## Wiki
+
+To see the solution, check 'wiki'.
+
+
 ## Directory structure
 
 ```
