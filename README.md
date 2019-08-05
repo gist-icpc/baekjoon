@@ -1,4 +1,4 @@
-# baekjoon solutions
+# Baekjoon solutions
 
 Algorithm problem solving project managed by GIST(Gwangju Institute of Sicence and Technology)
 
@@ -13,10 +13,12 @@ To see the solution, check 'wiki'.
 ```
 baekjoon
 ├── 1078
-│   ├── java
-│   │   ├── 1078.java
-│   ├── python
+│   ├── 1078.java 
+│   ├── 1078.py
 │   └── ....
-├── ...
+├── 2000
+│   ├── 1078.java 
+│   ├── 1078.py
+│   └── ....
 └── README.md
 ```
