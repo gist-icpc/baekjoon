@@ -2,24 +2,19 @@
 #include <iostream>
 
 int cache[9];
+char s[20];
 
 int n, m;
 
 void f(int k) {
 	if (k == m) {
-		int order[9];
-		for (int i=1;i<=n;i++) {
-			order[cache[i]] = i;
-		}
-		for (int i=1;i<=m;i++) {
-			printf("%d ", order[i]);
-		}
-		printf("\n");
-		
+		printf("%s\n", s);
 	} else {
 		for(int i=1;i<=n;i++) {
 			if (cache[i] == 0) {
-				cache[i] = k+1;
+				cache[i] = 1;
+				s[2*k] = i+'0';		// 순서를 저장하는 대신, 아예 문자열을 만들어두면 더 빨라집니다 
+				s[2*k+1] = ' ';
 				f(k+1);
 				cache[i] = 0;
 			}
