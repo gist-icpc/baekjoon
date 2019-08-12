@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int dates[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 };
+	char days[7][4] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
+	int month, day;
+	int calc = 0;
+	scanf("%d %d", &month, &day);
+	for (int i = 0; i < (month - 1); i++)
+		calc += dates[i];
+	calc += day;
+	printf("%s\n", days[calc % 7]);
+	return 0;
+}
